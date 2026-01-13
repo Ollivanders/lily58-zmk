@@ -9,5 +9,11 @@ manifest:
       remote: zmkfirmware
       revision: main
       import: app/west.yml
+    - name: sixbysix
+      url: https://github.com/MechboardsLTD/zmk-module
+      revision: sixbysix
+    - name: dongle
+      url: https://github.com/MechboardsLTD/zmk-module
+      revision: dongle_1key
   self:
     path: config
